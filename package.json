@@ -1,0 +1,37 @@
+{
+    "name": "webext-error-boundary",
+    "version": "0.1.0",
+    "description": "Error boundary for Chrome extension UIs — catch rendering errors, fallback UI, crash reporting integration, and recovery actions for MV3.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "error-boundary",
+        "fallback",
+        "crash",
+        "recovery",
+        "manifest-v3",
+        "browser-extension",
+        "ui",
+        "resilience"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/webext-error-boundary.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
