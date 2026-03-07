@@ -109,3 +109,7 @@ MIT License
 ## License
 
 MIT
+
+---
+
+Built by [theluckystrike](https://github.com/theluckystrike) — [zovo.one](https://zovo.one)
