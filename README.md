@@ -1,8 +1,17 @@
+[![CI](https://github.com/theluckystrike/webext-error-boundary/actions/workflows/ci.yml/badge.svg)](https://github.com/theluckystrike/webext-error-boundary/actions)
+[![npm](https://img.shields.io/npm/v/webext-error-boundary)](https://www.npmjs.com/package/webext-error-boundary)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 # webext-error-boundary
 
 Error boundary for Chrome extension UIs - catch rendering errors, fallback UI, crash reporting integration, and recovery actions for MV3.
 
 ## Installation
+
+```bash
+npm install webext-error-boundary
+```
 
 ```bash
 npm i webext-error-boundary
@@ -96,3 +105,7 @@ const data = await boundary.wrapAsync(() => fetchData());
 Built by theluckystrike. Part of the zovo.one ecosystem for building resilient browser extensions.
 
 MIT License
+
+## License
+
+MIT
